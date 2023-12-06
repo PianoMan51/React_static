@@ -1,0 +1,30 @@
+* {
+    font-family: sans-serif
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+}
+
+.nav-items>li {
+    padding: 10px
+}
+
+.nav-logo {
+    width: 50px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 20px;
+}

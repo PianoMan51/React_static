@@ -1,0 +1,69 @@
+* {
+    font-family: sans-serif
+}
+
+
+.navMenu {
+    background-color: #3498db;
+    width: 170px;
+
+}
+
+.navMenu h1 {
+    background-color: #2980b9;
+    padding: 10px 20px;
+    margin: 0px;
+    color: white;
+    cursor: default;
+}
+
+.navMenu ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navMenu li {
+    padding: 10px 20px;
+    color: white;
+    height: 20px;
+}
+
+.navMenu li:hover {
+    background-color: #2980b9;
+    cursor: pointer;
+}
+
+
+.content {
+    width: 80%;
+    height: 700px;
+    background-color: #ecf0f1;
+    position: relative;
+}
+
+.section {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.banner {
+    background-color: #bdc3c7;
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.page {
+    flex: 1;
+    padding: 40px
+}
+
+.page input {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
